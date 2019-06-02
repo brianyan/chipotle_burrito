@@ -5,6 +5,6 @@ from dotenv import load_dotenv
 from sms import send
 
 if __name__ == "__main__":
+	to_number = account_sid = os.environ.get('PERSONAL_PHONE_NUMBER')
 	load_dotenv()
-	print(os.environ.get('TWILIO_ACCOUNT_SID'))
-	# send()
+	send(to_number=to_number)

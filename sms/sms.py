@@ -2,7 +2,7 @@ import os
 
 from twilio.rest import Client
 
-def send(to_number='+9259633115'):
+def send(to_number):
 	account_sid = os.environ.get('TWILIO_ACCOUNT_SID')
 	auth_token = os.environ.get('TWILIO_AUTH_TOKEN')
 	from_number = os.environ.get('TWILIO_PHONE_NUMBER')
