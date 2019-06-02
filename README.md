@@ -10,3 +10,6 @@ next place your twilio credentials in the .env file like the following
 
 TWILIO_ACCOUNT_SID=youraccountsid
 TWILIO_AUTH_TOKEN=your_auth_token
+TWILIO_PHONE_NUMBER=+your_twilio_phone_number
+
+
