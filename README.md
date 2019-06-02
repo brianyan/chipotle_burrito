@@ -3,5 +3,10 @@ Pet Project that utilizes an SMS Bot to get free burritos from Chipotle
 
 
 # Setup your twilio credentials here
-export TWILIO_ACCOUNT_SID=youraccountsid
-echo $TWILIO_ACCOUNT_SID
+
+create a .env file by running `touch .env`
+
+next place your twilio credentials in the .env file like the following
+
+TWILIO_ACCOUNT_SID=youraccountsid
+TWILIO_AUTH_TOKEN=your_auth_token
